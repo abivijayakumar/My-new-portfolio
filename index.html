@@ -1,128 +1,210 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Abinaya - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinaya Vijayakumar | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
 </head>
 <body>
 
-  <!-- Logeshwaran -->
-  <!-- Navigation Menu -->
-  <header>
-    <nav>
-      <div class="logo">Abinaya Vijayakumar</div>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <main>
+        <section class="glass-container">
+            <!-- Header items -->
+            <div class="top-header">
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    OPEN TO WORK
+                </div>
+                
+                <a href="PROJECT/ABINAYA VIJAYAKUMAR RESUME 1 (1).pdf" class="download-cv-btn" download>
+                    Download CV
+                </a>
+            </div>
 
-    </nav>
-  </header>
-  <!-- About Me Section -->
-  <section class="section" id="about">
-    <h2>About Me</h2>
-    <p>I'm Abinaya, passionate and enthusiastic Full Stack Developer.I enjoy exploring different areas of programming development my technical skills include Java,Python,Oracle,HTML,CSS and Javascript.I have a good foundation in both front-end and back-end development.I like building projects that are practical and useful.I am deeply interested in understanding how Technologies work together.Developing complete applications from scartch excites me.I focus on writing clean,efficient,and scalable code.I am comfortable working with databases and web technologies.Problem-Solving is one of my favorite skills to improve every day.I am always eagar to learn new tools and frameworks.Teamwork and collaboration are also strengths that I value.I believe consistent learning is key to growth in technology.I enjoy taking up challenges that push me beyond my comfort zone.My goal is to contribute to impactful and innovative projects.I want to create applications that make people's lives easier.I stay motivated by setting new goals in coding and development.As a fresher,I am looking for opportunities to apply my knowledge.I am excited to grow as a professional Full Stack Developer and achieve excellence.</p>
-  </section>
+            <!-- Home Section (Active by default) -->
+            <div id="home" class="section active">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <div class="role-tag">Full Stack Developer</div>
+                        <h1 class="hero-title">Abinaya<br>Vijayakumar</h1>
+                        
+                        <div class="contact-info-grid">
+                            <a href="mailto:abivijayakumar419@gmail.com" class="info-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#EA4335"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                                <span>abivijayakumar419@gmail.com</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/abinaya-vijayakumar-822389297/" target="_blank" class="info-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color: #0077B5;"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/abivijayakumar" target="_blank" class="info-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color: #fff;"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.041-1.382-4.041-1.382-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="info-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#34A853"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Karur, Tamil Nadu</span>
+                            </a>
+                        </div>
+                    </div>
 
-  <!-- Skills Section -->
-  <section class="section" id="skills">
-  <h2>Skills</h2>
-  <div class="skills-grid">
+                    <!-- User Background Image Area -->
+                    <div class="hero-image-area">
+                        <!-- User specified profile image -->
+                        <img src="PROJECT/new project/assets/images/profile.png" alt="Abinaya Vijayakumar" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop'">
+                    </div>
+                </div>
+            </div>
 
-   <div class="skill-group">
-  <h3>Web Technologies</h3>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>Java</li>
-    <li>GitHub</li>
-    <li>Git</li>
-  </ul>
-</div>
-    <div class="skill-group">
-      <h3>Data Analytics Tools</h3>
-      <ul>
-        <li>Excel</li>
-        <li>SQL</li>
-        <li>Python</li>
-      </ul>
-    </div>
+            <!-- Summary Section -->
+            <div id="summary" class="section">
+                <h2 class="section-header"><i data-lucide="user-info"></i> Summary</h2>
+                <div class="summary-grid">
+                    <div>
+                        <p style="font-size: 1.1rem; color: var(--text-secondary);">
+                            I'm Abinaya, a passionate and enthusiastic Full Stack Developer. I enjoy exploring different areas of programming and development. My technical toolkit includes Java, Python, SQL, HTML, CSS, and JavaScript. 
+                            <br><br>
+                            I have a solid foundation in both front-end and back-end development, with a deep interest in understanding how technologies work together seamlessly. Problem-solving is at the heart of what I do.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 1.5rem; font-size: 1rem; color: var(--primary);">LANGUAGES</h3>
+                        <div style="margin-bottom: 1.5rem;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem;">
+                                <span>English</span>
+                                <span>Professional</span>
+                            </div>
+                            <div style="height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px;">
+                                <div style="width: 90%; height: 100%; background: var(--primary); border-radius: 2px;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem;">
+                                <span>Tamil</span>
+                                <span>Native</span>
+                            </div>
+                            <div style="height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px;">
+                                <div style="width: 100%; height: 100%; background: var(--primary); border-radius: 2px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <div class="skill-group">
-      <h3>Soft Skills</h3>
-      <ul>
-        <li>Team Collaboration</li>
-        <li>Good Verbal Communication</li>
-        <li>Problem Solving</li>
-        <li>Quick Learner</li>
-      </ul>
-    </div>
+            <!-- Education & Certifications Section -->
+            <div id="info" class="section">
+                <h2 class="section-header"><i data-lucide="award"></i> Education & Certifications</h2>
+                <div class="certs-list">
+                    <div class="cert-item">
+                        <span><i data-lucide="check-circle"></i> HackerRank Java Certification</span>
+                        <a href="PROJECT/V.Abinaya Hackerrank Java.pdf" target="_blank" class="btn-icon"><i data-lucide="external-link"></i></a>
+                    </div>
+                    <div class="cert-item">
+                        <span><i data-lucide="cloud"></i> NPTEL Cloud Computing</span>
+                        <a href="PROJECT/NPTEL Cloud computing.jpeg" target="_blank" class="btn-icon"><i data-lucide="external-link"></i></a>
+                    </div>
+                    <div class="cert-item">
+                        <span><i data-lucide="cpu"></i> NPTEL Internet of Things</span>
+                        <a href="PROJECT/NPTEL IOT.jpeg" target="_blank" class="btn-icon"><i data-lucide="external-link"></i></a>
+                    </div>
+                    <div class="cert-item">
+                        <span><i data-lucide="globe"></i> Udemy Full Stack Development</span>
+                        <a href="PROJECT/udemy certificate.pdf" target="_blank" class="btn-icon"><i data-lucide="external-link"></i></a>
+                    </div>
+                </div>
+            </div>
 
-  </div>
-</section>
+            <!-- Skills Section -->
+            <div id="skills" class="section">
+                <h2 class="section-header"><i data-lucide="zap"></i> Technical Arsenal</h2>
+                <div class="skills-container">
+                    <div class="skill-box"><i data-lucide="coffee"></i><span>Java</span></div>
+                    <div class="skill-box"><i data-lucide="code-2"></i><span>JavaScript</span></div>
+                    <div class="skill-box"><i data-lucide="terminal"></i><span>Python</span></div>
+                    <div class="skill-box"><i data-lucide="database"></i><span>SQL</span></div>
+                    <div class="skill-box"><i data-lucide="layout"></i><span>HTML/CSS</span></div>
+                    <div class="skill-box"><i data-lucide="github"></i><span>Git/GitHub</span></div>
+                    <div class="skill-box"><i data-lucide="file-spreadsheet"></i><span>Excel</span></div>
+                    <div class="skill-box"><i data-lucide="server"></i><span>Oracle DB</span></div>
+                </div>
 
-  <!-- Projects Section -->
-  <section class="section" id="projects">
-  <h2>Projects</h2>
-  <div class="project-grid">
+                <h2 class="section-header" style="margin-top: 3rem;"><i data-lucide="users"></i> Soft Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-box"><i data-lucide="users-2"></i><span>Team Work</span></div>
+                    <div class="skill-box"><i data-lucide="message-square"></i><span>Communication</span></div>
+                    <div class="skill-box"><i data-lucide="brain-circuit"></i><span>Problem Solving</span></div>
+                    <div class="skill-box"><i data-lucide="rocket"></i><span>Quick Learner</span></div>
+                </div>
+            </div>
 
-    <div class="project-box">
-      <h3>💻 Portfolio Website</h3>
-      <p>A responsive personal site built using HTML, CSS & JavaScript to showcase my profile and work.</p>
-      <a class="project-btn" href="https://github.com/abivijayakumar/new-portfolio/blob/main/index.html " target="_blank">🔗 View Code</a>
-    </div>
+            <!-- Projects Section (Used when clicking Link or as a default) -->
+            <div id="projects" class="section">
+                <h2 class="section-header"><i data-lucide="layers"></i> Featured Projects</h2>
+                
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1532105956626-9569c03602f6?q=80&w=1000&auto=format&fit=crop" alt="Railway Booking System">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Backend Application</span>
+                        <h3>Railway Booking System</h3>
+                        <p class="project-desc">A comprehensive Java application simulating train ticket booking, seat management, and passenger processing using OOP principles.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/abivijayakumar/Railway-Reservation-Booking-program-project-in-java" target="_blank" class="btn-icon" title="View Code">
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="project-box">
-      <h3>🎓 Railway-Reservation-Booking-program-project-in-java</h3>
-      <p>This is a Railway Reservation Booking System built using Java. The project simulates the process of booking train tickets, managing passenger details, checking seat availability, and generating booking confirmations. It is designed as a simple console-based / GUI-based application (depending on your implementation) for learning Core Java concepts such as OOP, Collections, File Handling, and Exception Handling.</p>
-      <a class="project-btn" href="https://github.com/abivijayakumar/Railway-Reservation-Booking-program-project-in-java" target="_blank">🔗 View Code</a>
-    </div>
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Frontend Development</span>
+                        <h3>Portfolio Website</h3>
+                        <p class="project-desc">A responsive personal site built using HTML, CSS & JavaScript to showcase my profile and work with modern UI/UX principles.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/abivijayakumar/new-portfolio" target="_blank" class="btn-icon" title="View Code">
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="project-box">
-      <h3> Student-Hallticket-html</h3>
-      <p>This is a Student Hall Ticket Generator project created using HTML, CSS, and basic JavaScript. The project allows students to view or generate their exam hall ticket online. It is a simple web-based application designed to practice frontend development concepts like form design, tables, and styling.</p>
-      <a class="project-btn" href="https://github.com/abivijayakumar/Student-Hallticket-html/blob/main/index.html"target="_blank">🔗 View Code</a>
-    </div>
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1000&auto=format&fit=crop" alt="Student Hall Ticket">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Web Application</span>
+                        <h3>Student Hall Ticket</h3>
+                        <p class="project-desc">A web-based generator for exam hall tickets, featuring dynamic data presentation and frontend validation.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/abivijayakumar/Student-Hallticket-html" target="_blank" class="btn-icon" title="View Code">
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  </div>
-</section>
+        <!-- Floating pill navigation -->
+        <nav class="nav-pill">
+            <a href="#home" class="nav-btn active" data-target="home"><i data-lucide="home"></i> <span>Home</span></a>
+            <a href="#summary" class="nav-btn" data-target="summary"><i data-lucide="user"></i> <span>Summary</span></a>
+            <a href="#info" class="nav-btn" data-target="info"><i data-lucide="award"></i> <span>Info</span></a>
+            <a href="#skills" class="nav-btn" data-target="skills"><i data-lucide="zap"></i> <span>Skills</span></a>
+            <a href="#projects" class="nav-btn" data-target="projects"><i data-lucide="layers"></i> <span>Projects</span></a>
+        </nav>
+    </main>
 
-  <!-- Certifications Section -->
-  <section class="section" id="certifications">
-    <h2>Certifications</h2>
-    <ul class="certs">
-      <li><a href="CSS_Certications.jpeg"target= "_blank">View Certificate</a></li>
-      <li><a href="udemy certificate.pdf"target=" _blank" >– udemy</a></li>
-      <li><a href="NPTEL IOT.jpeg" target="_blank">– NPTEL IOT</a></li>
-      <li><a href="NPTEL Cloud computing.jpeg"target="_blank"> – NPTEL Cloud Computing</a></li>
-      <li><a href="V.Abinaya Hackerrank Java.pdf"target="_blank"> –HackerRank</a></li>
-    </ul>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="section" id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:abivijayakumar419@gmail.com">abivijayakumar419@gmail.com</a></p>
-   <p>LinkedIn: <a href="https://www.linkedin.com/in/abinaya-vijayakumar-822389297/" target="_blank">Abinaya Vijayakumar</a></p>
-    <p>GitHub: <a href="https://github.com/abivijayakumar" target="_blank">abivijayakumar</a></p>
-    <a href="ABINAYA VIJAYAKUMAR RESUME 1 (1).pdf" download class="btn">Download Resume</a>
-  </section>
-
-  <footer>
-    <p>© 2025 Abinaya Vijayakumar. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
-  <body>
-  <div class="emoji-bg">✨💻📚</div>
-
+    <script src="script.js"></script>
 </body>
 </html>
-
-
